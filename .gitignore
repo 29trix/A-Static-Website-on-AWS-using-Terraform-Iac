@@ -1,0 +1,10 @@
+#ignore terraform folder that contains provider
+.terraform/*
+
+#ignore all terraform state
+*.tfstate
+*.tfstate.*
+
+#ignore tfvars
+*.tfvars
+
