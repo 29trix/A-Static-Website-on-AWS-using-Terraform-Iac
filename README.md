@@ -19,7 +19,7 @@ This module handles the creation of the S3 bucket to store the website files.
 
 ### main.tf
 * **`aws_s3_bucket` Resource:**
-    - Creates an S3 bucket (https://aws.amazon.com/s3/).
+    - Creates an S3 bucket
     - Bucket name is specified in the `bucket_name` variable.
 
 * **`force_destroy` Attribute (Optional):**
