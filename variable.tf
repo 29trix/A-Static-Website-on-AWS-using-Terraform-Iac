@@ -3,3 +3,6 @@ variable "my-region" {
 }
 
 variable "bucket-name" {}
+variable "domain-name" {}
+variable "env" {}
+variable "s3-bucket-name" {}
